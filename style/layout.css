@@ -2,3 +2,39 @@ div {
   width: 90%;
   margin: 0px auto;
 }
+
+.a {
+  min-height: 75px;
+}
+
+.b {
+  min-height: 150px;
+}
+
+.c, .d {
+  min-height: 125px;
+}
+
+.containerPair {
+  min-height: 250px;
+}
+
+.e, .f, .g, .h {
+  width: 50%;
+  height: 250px;
+  display: inline-block;
+  width: 49.4%;
+  border: none;
+}
+
+.f, .h {
+  border-left: 1px solid black;
+}
+
+.i {
+  min-height: 80px;
+}
+
+/* @media (min-width: 768px) {
+
+} */
