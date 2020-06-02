@@ -1,6 +1,17 @@
 div {
   width: 90%;
-  margin: 0px auto;
+  margin: 0% auto;
+  text-align: center;
+}
+
+div:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+body {
+  text-align: center;
 }
 
 .a {
@@ -16,25 +27,45 @@ div {
 }
 
 .containerPair {
-  min-height: 250px;
-}
-
-.e, .f, .g, .h {
-  width: 50%;
-  height: 250px;
-  display: inline-block;
-  width: 49.4%;
+  overflow: auto;
   border: none;
 }
 
-.f, .h {
-  border-left: 1px solid black;
+.e, .f, .g, .h {
+  min-height: 250px;
+  float: left;
+  width: 49.2%;
 }
 
 .i {
-  min-height: 80px;
+  min-height: 140px;
 }
 
-/* @media (min-width: 768px) {
-
-} */
+@media (min-width: 768px) {
+  .b {
+    min-height: 600px;
+    width: 20%;
+    float: left;
+    margin-left: 5%;
+  }
+  .c, .d {
+    min-height: 200px;
+    width: 34.8%;
+    float: left;
+    overflow: auto;
+  }
+  .containerPair {
+    min-height: 250px;
+    width: 34.9%;
+    float: left;
+    overflow: auto;
+  }
+  .e, .f, .g, .h {
+    min-height: 250px;
+    overflow: auto;
+  }
+  .i {
+    margin-top: 140px;
+    clear: right;
+  }
+}
