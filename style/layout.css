@@ -1,0 +1,75 @@
+div {
+  width: 90%;
+  margin: 0% auto;
+  text-align: center;
+  vertical-align: middle;
+}
+
+div:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+body {
+  text-align: center;
+}
+
+.a {
+  min-height: 75px;
+}
+
+.b {
+  min-height: 150px;
+}
+
+.c, .d {
+  min-height: 125px;
+}
+
+.containerPair {
+  overflow: auto;
+  border: none;
+}
+
+.e, .f, .g, .h {
+  min-height: 250px;
+  float: left;
+  width: 49.2%;
+}
+
+.i {
+  min-height: 140px;
+}
+
+@media (min-width: 768px) {
+  body {
+    background-color: teal;
+  }
+  .b {
+    min-height: 600px;
+    width: 20%;
+    float: left;
+    margin-left: 5%;
+  }
+  .c, .d {
+    min-height: 200px;
+    width: 34.8%;
+    float: left;
+    overflow: auto;
+  }
+  .containerPair {
+    min-height: 250px;
+    width: 34.9%;
+    float: left;
+    overflow: auto;
+  }
+  .e, .f, .g, .h {
+    min-height: 250px;
+    overflow: auto;
+  }
+  .i {
+    margin-top: 140px;
+    clear: right;
+  }
+}
