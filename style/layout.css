@@ -2,6 +2,7 @@ div {
   width: 90%;
   margin: 0% auto;
   text-align: center;
+  vertical-align: middle;
 }
 
 div:after {
@@ -42,6 +43,9 @@ body {
 }
 
 @media (min-width: 768px) {
+  body {
+    background-color: teal;
+  }
   .b {
     min-height: 600px;
     width: 20%;
