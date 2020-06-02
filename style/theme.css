@@ -1,0 +1,10 @@
+div {
+  background-color: rgb(182, 182, 182);
+  border: 1px solid black;
+}
+
+@media (min-width: 768px) {
+  body {
+    background-color: red;
+  }
+}
