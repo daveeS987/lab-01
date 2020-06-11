@@ -2,3 +2,39 @@ div {
   background-color: rgb(182, 182, 182);
   border: .01px black solid;
 }
+
+.a {
+  background-color: yellow;
+}
+
+.b {
+  background-color: green;
+}
+
+.c {
+  background-color: blue;
+}
+
+.d {
+  background-color: lightblue;
+}
+
+.e {
+  background-color: lightcoral;
+}
+
+.f {
+  background-color: red;
+}
+
+.g {
+  background-color: purple;
+}
+
+.h {
+  background-color: pink;
+}
+
+.i {
+  background-color: orange;
+}
